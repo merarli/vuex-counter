@@ -8,10 +8,10 @@
     <div class="panel-body">
 
       <h2>{{item.count}}</h2>
-      <button @click="COUNT_DOWN_CAR(item)" class="glyphicon glyphicon-download"></button>
-      <button @click="COUNT_UP_CAR(item)" class="glyphicon glyphicon-upload"></button>
+      <span @click="COUNT_DOWN_CAR(item)" class="glyphicon glyphicon-download"></span>
+      <span @click="COUNT_UP_CAR(item)" class="glyphicon glyphicon-upload"></span>
 
-
+        <hr>
         <button class="btn btn-default" @click="REMOVE_CAR(item)">削除</button>
 
 
